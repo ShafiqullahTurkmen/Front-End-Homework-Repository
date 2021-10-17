@@ -1,0 +1,25 @@
+h1, h2 {
+    text-align: center;
+    color: red;
+}
+
+nav {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: green;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+ol {
+    list-style-position: inside;
+    text-align: center;
+}
+
