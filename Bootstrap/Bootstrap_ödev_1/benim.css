@@ -1,0 +1,27 @@
+h1, h2 {
+    text-align: center;
+    color: rgb(135, 77, 193);
+}
+
+nav {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: green;
+}
+
+#ulID {
+    list-style: none;
+    margin: 10px auto;
+    padding: 0px
+}
+/* 
+ol {
+    list-style-position: inside;
+} */
+
+.main {
+    background-color: #E9ECEF;
+}
