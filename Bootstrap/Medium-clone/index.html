@@ -16,11 +16,11 @@
     <title>Medium</title>
   </head>
   <body>
-    <div class="bg-blue border-bottom-dark">
+    <div class="bg-blue border-bottom-dark py-1">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Medium</a>
+            <a class="navbar-brand" href="#"><strong>Medium</strong></a>
             <button
               class="navbar-toggler"
               type="button"
@@ -52,7 +52,7 @@
                   <a class="nav-link" href="#">Sign In</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link btn btn-dark text-light" href="#"
+                  <a class="nav-link btn btn-dark text-light ms-3 rounded-pill" href="#"
                     >Get Started</a
                   >
                 </li>
@@ -66,17 +66,53 @@
       <div class="container">
         <div class="row">
           <div class="col-5">
-            <h1 class="display-3">Medium is a place <br> to write, read, and <br> connect</h1>
+            <h1 class="display-3"><strong>Medium is a place <br> to write, read, and <br> connect</h1></strong>
             <p class="lead">
               It's easy and free to post your thinking on any topic and connect
               with millions of readers.
             </p>
-            <a href="#" class="btn btn-light btn-outline-dark">Start Writing</a>
+            <a href="#" class="btn btn-light btn-outline-dark rounded-pill">Start Writing</a>
           </div>
-          <div class="col-7">gorsel</div>
+          <div class="col-7">
+            <img src="https://picsum.photos/350/350" alt="" class="rounded-circle float-end">
+          </div>
         </div>
       </div>
     </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-12 mb-2">
+          <h6><i class="fas fa-rocket"></i><small class="ms-2">Trending in Medium</small></h6>
+        </div>
+        <article class="col-sm-4">
+          <div class="row">
+            <div class="col-1">
+              <h6 class="text-black-50">01</h6>
+            </div>
+            <div class="col-11">
+              <img class="rounded-circle" src="https://picsum.photos/id/11/25/25" alt="">
+              <span class="small ms-1">Will Leitch</span>
+              <h6 class="mt-2">
+                <strong>Confessions of a Pandemic Risk-Taker</strong>
+              </h6>
+
+              <ul class="list-inline small">
+                <li class="list-inline-item">Dec 1</li>
+                <li class="list-inline-item">6 min read</li>
+                <li class="list-inline-item">
+                  <i class="far fa-star"></i>
+                </li>
+              </ul>
+
+
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
 
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
