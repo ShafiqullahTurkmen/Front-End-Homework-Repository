@@ -25,7 +25,7 @@
 
 * [ödev2](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/css/%C3%B6dev2)
 
-* [ödev3](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/css/Odev%203)
+* [ödev3](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/css/%C3%B6dev3)
 
 ### [HTML](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/html)
 
