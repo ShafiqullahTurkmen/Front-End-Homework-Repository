@@ -191,3 +191,10 @@
 .footerli a:hover {
   text-decoration: underline;
 }
+
+#imgbla {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+ 
+}
