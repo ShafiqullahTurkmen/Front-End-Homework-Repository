@@ -44,3 +44,5 @@
 * [ödev2](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/SQL/%C3%B6dev2)
 
 * [ödev3](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/SQL/%C3%B6dev3)
+
+* [ödev4](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/blob/main/SQL/%C3%B6dev4/%C3%B6dev4.sql)
