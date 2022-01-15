@@ -12,6 +12,8 @@
 
 * [ödev2/todolist](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/JavaScript/%C3%B6dev2/todolist)
 
+* [ödev3/asiankitchen](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/JavaScript/%C3%B6dev3/asiankitchen)
+
 
 ### [React](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/React/%C3%B6dev2/my-todos-app)
 
