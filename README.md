@@ -55,4 +55,4 @@
 
 * [ödev7](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/blob/main/SQL/%C3%B6dev7/%C3%B6dev7.sql)
 
-* [ödv8](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/blob/main/SQL/%C3%B6dev8/%C3%B6dev8.sql)
+* [ödev8](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/blob/main/SQL/%C3%B6dev8/%C3%B6dev8.sql)
