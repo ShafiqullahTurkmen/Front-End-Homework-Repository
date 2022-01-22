@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className={styles.nav}>
       <div className={styles.left}>
-        <div className="logo">
+        <div className={styles.logo}>
           <Link to="/">eCommerce</Link>
         </div>
         <ul className={styles.menu}>
