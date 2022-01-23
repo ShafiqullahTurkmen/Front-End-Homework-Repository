@@ -4,7 +4,10 @@ import "./index.css";
 import "./reset.css";
 
 import { QueryClient, QueryClientProvider } from "react-query";
-import { ReactQueryDevtools } from 'react-query/devtools'
+import { ReactQueryDevtools } from "react-query/devtools";
+
+//context
+import { AuthProvider } from "./contexts/AuthContext.jsx";
 
 import { ChakraProvider } from "@chakra-ui/react";
 import App from "./App";
@@ -15,15 +18,17 @@ const queryClient = new QueryClient({
     queries: {
       refetchOnMount: false,
       refetchOnWindowFocus: false,
-    }
-  }
+    },
+  },
 });
 
 ReactDOM.render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}>
       <ChakraProvider>
-        <App />
+        <AuthProvider>
+          <App />
+        </AuthProvider>
       </ChakraProvider>
       <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
