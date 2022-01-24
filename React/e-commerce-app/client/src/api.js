@@ -1,21 +1,23 @@
 import axios from "axios";
 
-axios.interceptors.request.use(function (config) {
+axios.interceptors.request.use(
+  function (config) {
+    const { origin } = new URL(config.url);
 
-  const { origin } = new URL(config.url);
+    const allowedOrigins = [process.env.REACT_APP_BASE_ENDPOINT];
+    const token = localStorage.getItem("access-token");
 
-  const allowedOrigins = [process.env.REACT_APP_BASE_ENDPOINT];
-  const token = localStorage.getItem("access-token");
-  
-  if (allowedOrigins.includes(origin)) {
-    config.headers.authorization  = token;
+    if (allowedOrigins.includes(origin)) {
+      config.headers.authorization = token;
+    }
+
+    return config;
+  },
+  function (error) {
+    // Do something with request error
+    return Promise.reject(error);
   }
-
-  return config;
-}, function (error) {
-  // Do something with request error
-  return Promise.reject(error);
-});
+);
 
 export const fetchProductList = async ({ pageParam = 0 }) => {
   const { data } = await axios.get(
@@ -40,6 +42,19 @@ export const fetchRegister = async (input) => {
 };
 
 export const fetchMe = async () => {
-  const { data } = await axios.get(`${process.env.REACT_APP_BASE_ENDPOINT}/auth/me`)
+  const { data } = await axios.get(
+    `${process.env.REACT_APP_BASE_ENDPOINT}/auth/me`
+  );
   return data;
-}
+};
+
+export const fetchLogout = async () => {
+  const { data } = await axios.post(
+    `${process.env.REACT_APP_BASE_ENDPOINT}/auth/logout`,
+    {
+      refresh_token: localStorage.getItem("refresh_token"),
+    }
+  );
+
+  return data;
+};
