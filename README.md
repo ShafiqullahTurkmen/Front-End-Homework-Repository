@@ -19,6 +19,11 @@
 
 * [my-todos-app](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/React/%C3%B6dev2/my-todos-app)
 
+
+### [Redux](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/Redux)
+
+* [to-to-app](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/Redux/to-do-app)
+
 ### [Veri_Yapıları_ve_Algoritmalar_Bitirme_Projesi](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/Veri_Yap%C4%B1lar%C4%B1_ve_Algoritmalar_Bitirme_Projesi)
 
 ### [CSS](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/css)
