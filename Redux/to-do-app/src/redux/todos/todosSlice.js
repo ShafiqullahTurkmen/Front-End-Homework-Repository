@@ -17,8 +17,12 @@ export const todosSlice = createSlice({
     ]
   },
   reducers: {
-    
+    addTodo: (state, action) => {
+      state.items = [...state.items, action.payload ]
+    }
   }
 })
+
+export const { addTodo } = todosSlice.actions;
 
 export default todosSlice.reducer;
