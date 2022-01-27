@@ -34,6 +34,8 @@
 
 * [ödev3](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/css/%C3%B6dev3)
 
+* [simple-website-using-flexbox](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/css/simple-website-using-flexbox)
+
 ### [HTML](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/html)
 
 * [Alıştırmalı ödev](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/html/Al%C4%B1%C5%9Ft%C4%B1rmal%C4%B1%20%C3%B6dev)
