@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Footer() {
+function Footer() {
   return (
     <footer className="info">
       <p>Click to edit a todo</p>
@@ -13,3 +13,5 @@ export default function Footer() {
     </footer>
   );
 }
+
+export default React.memo(Footer);
