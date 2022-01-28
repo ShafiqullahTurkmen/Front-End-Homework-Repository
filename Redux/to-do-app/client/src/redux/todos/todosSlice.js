@@ -1,5 +1,5 @@
 import { createSlice, nanoid, createAsyncThunk } from "@reduxjs/toolkit";
-import { getTodosAsync, addTodoAsync, toggleTodoAsync, removeItemAsync } from "./services"
+import { getTodosAsync, addTodoAsync, toggleTodoAsync, removeItemAsync, clearTodoAsync } from "./services"
 
 export const todosSlice = createSlice({
   name: "todos",
@@ -60,6 +60,11 @@ export const todosSlice = createSlice({
       const id = action.payload;
       const filteredItems = state.items.filter((item) => item.id !== id);
       state.items = [...filteredItems];
+    },
+
+    // Clear Todo
+    [clearTodoAsync.fulfilled]: (state, action) => {
+      state.items = [...action.payload]
     }
   },
 });

@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { changeAtciveFilter, clearCompleted } from "../redux/todos/todosSlice";
 import { selectTodos } from "../redux/todos/todosSlice"
+import { clearTodoAsync } from "../redux/todos/services"
 
 
 export default function ContentFooter() {
@@ -53,7 +54,7 @@ export default function ContentFooter() {
         </li>
       </ul>
 
-      <button className="clear-completed" onClick={() => dispatch(clearCompleted())}>Clear completed</button>
+      <button className="clear-completed" onClick={() => dispatch(clearTodoAsync())}>Clear completed</button>
     </footer>
   );
 }

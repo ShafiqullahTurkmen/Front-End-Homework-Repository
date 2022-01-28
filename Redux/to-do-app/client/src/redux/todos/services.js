@@ -1,4 +1,4 @@
-import { createSlice, nanoid, createAsyncThunk } from "@reduxjs/toolkit";
+import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
 
@@ -26,4 +26,9 @@ export const toggleTodoAsync = createAsyncThunk("todos/toggleTodoAsync", async (
 export const removeItemAsync = createAsyncThunk("todos/removeItemAsync", async (id) => {
   await axios.delete(`${process.env.REACT_APP_API_BASE_ENDPOINT}/todos/${id}`);
   return id;
+})
+
+export const clearTodoAsync = createAsyncThunk("todos/clearTodoAsync", async () => {
+  const res = await axios(`${process.env.REACT_APP_API_BASE_ENDPOINT}/todos/clear`);
+  return res.data;
 })

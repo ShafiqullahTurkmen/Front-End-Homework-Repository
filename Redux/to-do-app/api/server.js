@@ -68,6 +68,12 @@ app.delete('/todos/:id', (req, res) => {
   res.send(todos);
 });
 
+app.get('/todos/clear', (req, res) => {
+  const filteredTodos = todos.filter(item => item.completed === false);
+  todos = filteredTodos;
+  res.send(filteredTodos)
+})
+
 const PORT = 7000;
 
 app.listen(PORT, console.log(`Server running on port ${PORT}`.green.bold));
