@@ -22,7 +22,9 @@
 
 ### [Redux](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/Redux)
 
-* [to-to-app](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/Redux/to-do-app)
+* [to-do-app](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/Redux/to-do-app)
+
+* [breaking-bad-app](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/Redux/breaking-bad-app)
 
 ### [Veri_Yapıları_ve_Algoritmalar_Bitirme_Projesi](https://github.com/ShafiqullahTurkmen/Front-End-Homework-Repository/tree/main/Veri_Yap%C4%B1lar%C4%B1_ve_Algoritmalar_Bitirme_Projesi)
 
