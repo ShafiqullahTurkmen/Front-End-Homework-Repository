@@ -1,0 +1,24 @@
+
+.my-masonry-grid {
+  display: flex;
+  margin-left: -20px;
+}
+.my-masonry-grid_column {
+  border-left: 20px solid transparent;
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div { /* change div to reference your elements in <masonry> */
+  background: #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.character  {
+  width: 100%;
+}
+
+.char_name{
+  padding: 10px 0;
+  font-size: 16px;
+}
